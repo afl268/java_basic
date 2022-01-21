@@ -1,0 +1,11 @@
+
+<div style="text-align:center"><!-- text-align 속성값을 center로 지정하여 div 안의 내용을 가운데 정렬합니다. -->
+    <input type="text" id="txt" /><br /><br />
+    <input type="button" value="go" onclick="check()" /> <!-- 버튼을 클릭하면 check() 함수를 호출합니다. -->
+</div>
+<script type="text/javascript">
+function check(){
+    var txt = document.getElementById('txt').value; // text 필드의 값을 변수 txt에 저장합니다.
+    if(txt=='dicap') location.href = 'index.html'; // txt 값이 '2013'인지 확인하여, 맞다면 '이동할페이지.html' 페이지로 이동합니다.
+}
+</script>

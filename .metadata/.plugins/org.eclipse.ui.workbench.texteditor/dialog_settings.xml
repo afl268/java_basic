@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="글을 수" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="글을 수"/>
+			<item value="String next"/>
+			<item value="add"/>
+			<item value="pw"/>
+			<item value="class"/>
+			<item value="album"/>
+			<item value="lyrics"/>
+			<item value="navi"/>
+			<item value="nabi"/>
+			<item value="nebi"/>
+			<item value="shuffle"/>
+			<item value="shyffle"/>
+			<item value="setting"/>
+			<item value="ly"/>
+			<item value="Search"/>
+		</list>
+		<list key="replacehistory">
+			<item value="javascript:void(window.open(&apos;popmuni.jsp&apos;, &apos;회원가입&apos;,&apos;width=800, height=500&apos;))"/>
+			<item value="loginxindex.html"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="340" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1301" key="DIALOG_X_ORIGIN"/>
+		<item value="44" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

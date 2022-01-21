@@ -1,0 +1,23 @@
+package game.interaction;
+
+public class Warrior { 
+	// Warrior의 특성으로
+	// HP, MP, ATK, EXP , LV을 넣는다
+	
+	// 생성자를 생성해서 아무것도 입력받지 않고
+	// 체력 20, 마나 10, 공격력 4, 방어력 1, 경험치 0이 자동입력되게 하기
+	private int hp;
+	private int mp;
+	private int atk;
+	private int exp;
+	private int lv;
+	
+	public Warrior() {
+		hp = 20;
+		mp = 10;
+		atk = 4;
+		lv = 1;
+		exp = 0;
+	}
+
+}

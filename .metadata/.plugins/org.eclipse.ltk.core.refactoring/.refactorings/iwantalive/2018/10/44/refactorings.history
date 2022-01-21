@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;iwantalive/WebContent/muni.jsp&apos; to &apos;notice.jsp&apos;" description="Rename resource &apos;muni.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/muni.jsp" name="notice.jsp" stamp="1540898397127" updateReferences="true"/>
+</session>

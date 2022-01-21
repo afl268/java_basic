@@ -1,0 +1,85 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"  import="java.sql.*,java.util.*"%>
+    <% request.setCharacterEncoding("UTF-8"); %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+	<title>.</title>
+
+	<!-- 한글처리를 위한 meta 태그 -->
+	<meta charset="utf-8">
+
+	<!-- 모바일 웹페이지를 viewport 설정 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- jQuery Mobile 기능을 이용하기 위한 css, js 파일을 웹 상에서 불러오기 -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<script language = javascript>
+function valid_check() {
+	if(document.form1.singer.value=="") {
+		alert("작성자명을 입력하세요");
+		document.form1.singer.focus();
+		return false;
+	}
+	if(document.form1.song.value=="") {
+		alert("제목을 입력하세요");
+		document.form1.song.focus();
+		return false;
+	}
+
+	document.form1.submit();
+}
+function submit_list() {
+	document.form1.action="Newfile_ok.jsp";
+	document.form1.submit();
+}
+</script>
+<body>
+	<!-- 페이지 설정 -->
+	<div data-role="page">
+
+		<!-- 헤더 작성 -->
+		<div data-role="header" data-theme="b">
+		<table>
+		        <tbody>
+			        <tr>
+					<td><h3>졸프</h3></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		<!-- 본문 작성 -->
+		<div data-role="content">
+			<p align="center">
+			<tr>
+			
+			
+<td width=40%>곡</td>
+<td width=60%><input type="text" name="writer"></td>
+</tr>
+<tr>
+<td width=40%>가수</td>
+<td width=60%><input type="text" name="title"></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<form name ="form1" action ="Newfile_ok.jsp" method = post>
+<input type="button" value="등록" onclick="valid_check()"></form>
+</td>
+</tr>
+
+	</p>
+		</div>
+
+		<!-- 푸터 작성 -->
+		<div data-role="footer" data-theme="b">
+			<p  align="center"><a href="https://naver.co.kr">ⓒ 2018 졸프</a></p>
+			
+		</div>
+	</div>
+</body>
+</html>

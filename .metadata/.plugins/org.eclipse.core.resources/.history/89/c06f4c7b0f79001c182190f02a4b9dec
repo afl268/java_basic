@@ -1,0 +1,13 @@
+package superkeyword;
+
+public class Airplane {
+	// 비행기는 속도를 가진다.
+	// 생성자는 속도를 입력받아 저장한다.
+	
+	protected int speed;
+	
+	public Airplane(int speed) {
+		this.speed = speed;
+	}
+
+}

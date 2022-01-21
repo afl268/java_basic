@@ -1,0 +1,12 @@
+package accessmodifier;
+
+public class Main02 {
+	Warrior w1 = new Warrior("Strike");
+	
+	w1.getInfo();
+	w1.hunt();
+	w1.hunt();
+	w1.getInfo();
+
+
+}

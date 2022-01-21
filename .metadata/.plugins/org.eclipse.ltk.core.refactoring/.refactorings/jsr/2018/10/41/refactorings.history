@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;jsr/WebContent/deleted.jsp&apos; to &apos;deleted.html&apos;" description="Rename resource &apos;deleted.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/deleted.jsp" name="deleted.html" stamp="1539089925528" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;it will delete.jsp&apos; to &apos;WebContent&apos;" description="Move &apos;it will delete.jsp&apos; to &apos;WebContent&apos;" destination="WebContent" element1="/iwantalive/WebContent/it will delete.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1539405686990" updateReferences="true"/>
+</session>

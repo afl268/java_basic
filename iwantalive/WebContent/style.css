@@ -1,0 +1,206 @@
+﻿@charset "utf-8";
+
+/*
+Design by www.maak-mijn-website.nl
+http://www.maak-mijn-website.nl
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+#main {
+	font-family: calibri;
+	font-size: 18px;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-x;
+	margin-right: auto;
+	margin-left: auto;
+}
+*
+{
+	border: 0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#footer {
+	background-image: url(images/index_38.jpg);
+	height: 25px;
+	width: 900px;
+	text-align: center;
+	font-family: calibri;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 7px;
+}
+
+#logo {
+	font-family: calibri;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-image: url(images/index_03.jpg);
+	height: 141px;
+	width: 211px;
+}
+#logo a{
+	font-family: calibri;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-decoration:none;
+	line-height: 0.8;
+}
+#content {
+	background-image: url(images/index_22.jpg);
+	height: 292px;
+	width: 292px;
+}
+
+.top_menu {
+	background-image: url(images/index_06.jpg);
+	height: 42px;
+	width: 113px;
+}
+.top_menu ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.top_menu li {
+	display: inline;
+}
+.top_menu a {
+	background:url(images/button.jpg);
+	font-family: calibri;
+	font-size: 25px;
+	font-weight:normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	height: 37px;
+	width: 113px;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 5px;
+}
+.top_menu a:hover {	
+	width: 113px;
+	height: 37px;
+	text-decoration:none;
+	background: url(images/button_hover.jpg);
+}
+.titel{
+	font-family:calibri;
+	font-size:25px;
+	text-align:left;
+	color:#FFFFFF;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.read_more {
+	background-image: url(images/index_30.jpg);
+	height: 42px;
+	width: 113px;
+	text-align: center;
+}
+.read_more ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.read_more li {
+	display: inline;
+}
+.read_more a {
+	background-image: url(images/read_more.jpg);
+	height: 34px;
+	width: 113px;
+	float:left;
+	text-align: center;
+	font-family: calibri;
+	font-size:20px;
+	text-decoration:none;
+	color: #FFFFFF;
+	padding-top: 8px;
+}
+
+.read_more a:hover {
+	background-image: url(images/read_more_hover.jpg);
+	height: 34px;
+	width: 113px;
+	text-decoration:none;
+}
+.content{
+	font-family:calibri;
+	font-size:12px;
+	text-align:left;
+	color:#FFFFFF;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+#content_2 {
+	background-image: url(images/index_23.jpg);
+	height: 293px;
+	width: 316px;
+}
+#content_3 {
+	background-image: url(images/index_24.jpg);
+	height: 292px;
+	width: 292px;
+}
+.incon{
+	font-family:맑은 고딕;
+	font-size:12px;
+	text-align:middle;
+	background-color:#B7F0B1;
+	color:#000000;
+	padding-left: 200px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+.muni{
+	font-family:맑은 고딕;
+	font-size:12px;
+	text-align:middle;
+	background-color:#B7F0B1;
+	color:#000000;
+	padding-left: 200px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+.mytable {
+	border-collapse: collapse;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}  
+.mytable tr, .mytable td {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+a{
+	color: #FFFF33;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #FFFF33;
+	text-decoration:underline;
+}
+.style1 {
+	font-size: 8px;
+	text-decoration: none;
+	color: #0C1F03;
+	text-align:center;
+}
+.style1 a{
+	text-align:center;
+	font-size: 8px;
+	text-decoration: none;
+	color: #0C1F03;
+}
+.style1 a:hover{
+	font-size: 8px;
+	text-decoration: none;
+	color: #0C1F03;
+}

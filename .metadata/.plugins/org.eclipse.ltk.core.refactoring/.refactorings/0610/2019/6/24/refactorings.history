@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;0610/WebContent/SessionLoginForm.html&apos; to &apos;SessionLoginForm.htm&apos;" description="Rename resource &apos;SessionLoginForm.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/SessionLoginForm.html" name="SessionLoginForm.htm" stamp="1560142067603" updateReferences="true"/>
+</session>

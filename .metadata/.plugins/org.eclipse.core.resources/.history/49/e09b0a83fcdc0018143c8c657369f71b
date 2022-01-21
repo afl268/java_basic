@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Moment</title>
+
+	
+	<meta charset="utf-8">
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	
+	<div data-role="page">
+
+		
+		<div data-role="header" data-theme="b">
+		<table>
+		        <tbody>
+			        <tr>
+				
+					<td><h3>졸프</h3></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+
+		<!-- 본문 작성 -->
+		<div data-role="content">
+			<p align="center">
+				
+				<h3 align="center">노래 신청 사이트입니다</h3>
+				<a href="deletedd.jsp" target="_top" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">시작합니다.</a>
+			</p>
+		</div>
+
+		<!-- 푸터 작성 -->
+		<div data-role="footer" data-theme="b">
+			<p  align="center">ⓒ 2018 졸프</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;superkeyword.airplane&apos; to &apos;Airplane&apos;&#x0D;&#x0A;- Original project: &apos;20220119&apos;&#x0D;&#x0A;- Original element: &apos;superkeyword.airplane&apos;&#x0D;&#x0A;- Renamed element: &apos;superkeyword.Airplane&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;airplane&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;superkeyword{airplane.java[airplane" matchStrategy="1" name="Airplane" qualified="false" references="true" similarDeclarations="false" stamp="1642585726983" textual="false" version="1.0"/>
+</session>
