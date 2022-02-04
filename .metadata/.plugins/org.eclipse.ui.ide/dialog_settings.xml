@@ -4,6 +4,19 @@
 		<item value="C:\Users\emoot\eclipse-workspace\iwantalive"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\emoot\data\eclipse-workspace"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\emoot\data\eclipse-workspace\210203(강사).zip"/>
+			<item value="C:\Users\emoot\data\eclipse-workspace\210128(강사).zip"/>
+			<item value="C:\Users\emoot\data\eclipse-workspace\210127(강사).zip"/>
+			<item value="C:\Users\emoot\data\eclipse-workspace\20220126(강사).zip"/>
+		</list>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
